@@ -17,3 +17,4 @@ Django-Persistent-Message==1.1
 django-simple-history==3.3.0
 django-filter==23.1
 django-auditlog==2.2.2
+django-bootstrap-v5

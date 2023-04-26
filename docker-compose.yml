@@ -13,6 +13,8 @@ services:
     volumes:
       - ./src:/src
       - ./config/nginx:/etc/nginx/conf.d
+      - .:/code
+      - ./src:/templates
     depends_on:
       - web
     networks:
